@@ -16,4 +16,15 @@ func main() {
 	city = "Bogor"
 	fmt.Printf("this is my city %s\n", city)
 
+	var country, continent string = "IDN", "Asia"
+	fmt.Printf("This is my country %s and my continent %s\n", country, continent)
+
+	var (
+		isEmployed bool   = true
+		salary     int    = 50000
+		position   string = "developer"
+	)
+
+	fmt.Printf("is employed : %t, this is my salary %d and my position is %s\n", isEmployed, salary, position)
+
 }
