@@ -27,4 +27,12 @@ func main() {
 
 	fmt.Printf("is employed : %t, this is my salary %d and my position is %s\n", isEmployed, salary, position)
 
+	// Zero values
+	var defaultInt int
+	var defaultFloat float64
+	var defaultString string
+	var defaultBool bool
+
+	fmt.Printf("int: %d, float: %f, string: %s, bool: %t\n", defaultInt, defaultFloat, defaultString, defaultBool)
+
 }
