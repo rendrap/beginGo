@@ -35,4 +35,14 @@ func main() {
 
 	fmt.Printf("int: %d, float: %f, string: %s, bool: %t\n", defaultInt, defaultFloat, defaultString, defaultBool)
 
+	const pi = 3.14
+
+	const (
+		Senin  = 1
+		Selasa = 2
+		Rabu   = 3
+	)
+
+	fmt.Printf("Senin: %d - Selasa: %d - Rabu: %d\n", Senin, Selasa, Rabu)
+
 }
